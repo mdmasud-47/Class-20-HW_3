@@ -1,0 +1,33 @@
+/* Common Css Start */
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   outline:0;
+ }
+ ul{
+    list-style-type: none;
+ }
+ a{
+    text-decoration: none;
+ }
+/* Common Css End */
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu-item {
+    margin-right: 20px;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu-item.active a {
+    color: #007bff;
+  }
+  
